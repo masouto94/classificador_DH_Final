@@ -6,7 +6,7 @@ from nltk.stem import SnowballStemmer
 from nltk.tokenize import word_tokenize
 import re
 import unidecode
-nltk.download('punkt')
+from nltk.download('punkt')
 
 
 st.image('patagonia2.png', height=300) 
