@@ -2,7 +2,7 @@ import streamlit as st
 import numpy as np
 import pandas as pd
 import pickle
-import ntlk
+import nltk
 from nltk.stem import SnowballStemmer
 from nltk.tokenize import word_tokenize
 import re
