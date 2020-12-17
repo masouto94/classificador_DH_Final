@@ -4,6 +4,7 @@ import pandas as pd
 import pickle
 import nltk
 nltk.download('punkt')
+nltk.download('stopwords')
 from nltk.stem import SnowballStemmer
 from nltk.tokenize import word_tokenize
 import re
