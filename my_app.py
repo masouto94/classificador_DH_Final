@@ -3,6 +3,7 @@ import numpy as np
 import pandas as pd
 import pickle
 import nltk
+nltk.download('punkt')
 from nltk.stem import SnowballStemmer
 from nltk.tokenize import word_tokenize
 import re
