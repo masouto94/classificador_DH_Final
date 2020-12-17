@@ -2,11 +2,12 @@ import streamlit as st
 import numpy as np
 import pandas as pd
 import pickle
+import ntlk
 from nltk.stem import SnowballStemmer
 from nltk.tokenize import word_tokenize
 import re
 import unidecode
-from nltk.download('punkt')
+
 
 
 st.image('patagonia2.png', height=300) 
