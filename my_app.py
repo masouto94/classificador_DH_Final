@@ -6,6 +6,8 @@ from nltk.stem import SnowballStemmer
 from nltk.tokenize import word_tokenize
 import re
 import unidecode
+nltk.download('punkt')
+
 
 st.image('patagonia2.png', height=300) 
 st.subheader('Clasificador de Comentarios en Redes Sociales')
