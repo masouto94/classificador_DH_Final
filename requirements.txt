@@ -1,9 +1,8 @@
 pandas==2.2.3
-nltk==3.9
+nltk==3.9.1
 streamlit==1.45.0
 numpy==2.2.5
 Unidecode==1.0.23
-wordcloud==1.8.1
 seaborn==0.10.0
 ipywidgets==7.5.1
 matplotlib==3.3.1
