@@ -3,7 +3,7 @@ import numpy as np
 import pandas as pd
 import pickle
 import nltk
-nltk.download('punkt')
+nltk.download('punkt_tab')
 nltk.download('stopwords')
 from nltk.stem import SnowballStemmer
 from nltk.tokenize import word_tokenize
@@ -12,7 +12,7 @@ import unidecode
 
 
 
-st.image('patagonia2.png', height=300) 
+st.image('patagonia2.png') 
 st.subheader('Clasificador de Comentarios en Redes Sociales')
 
 comentario = st.text_input('Comentario:')
